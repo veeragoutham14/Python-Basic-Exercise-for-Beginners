@@ -1,1 +1,14 @@
 
+def main():
+   st = input("") 
+   number = int(input(""))
+   list_st = list(st)
+   second_list = list_st[number:]
+   new_st = str(second_list)
+   print(new_st)
+   
+   
+            
+    
+if __name__ == "__main__":
+    main()
