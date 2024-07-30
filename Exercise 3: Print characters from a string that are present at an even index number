@@ -1,0 +1,13 @@
+
+def main():
+    st = input("")
+    print(f"Orginal String is {st}")
+    list_st = list(st)
+    print("Printing only even index chars")
+    for x in range(len(list_st)):
+            if x%2 == 0:
+                print(list_st[x])
+            
+    
+if __name__ == "__main__":
+    main()
