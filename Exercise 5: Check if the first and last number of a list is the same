@@ -1,0 +1,13 @@
+
+def main():
+   list_x= list(input(""))
+   if list_x[0] == list_x[len(list_x)-1]:
+       print("Result: True")
+       
+   else:
+       print("Result: False")
+   
+            
+    
+if __name__ == "__main__":
+    main()
