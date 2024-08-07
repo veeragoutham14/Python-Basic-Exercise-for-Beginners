@@ -1,0 +1,5 @@
+def code():
+    input_list = input("enter the numbers to be stored into the list:")
+    list = [int(x) for x in input_list.split() if int(x)%5 == 0]
+    op = "\n".join(map(str,list))
+    print(op)
